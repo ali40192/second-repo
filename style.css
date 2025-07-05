@@ -1,0 +1,105 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body {
+    background-image: url(wc22.png);
+    background-size: cover;
+    
+    font: 1em sans-serif;
+}
+header { 
+    margin-top: 10px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+}
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    font-size: 1.2em;
+}
+.nav-links {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    width: 80%;
+}
+.nav-links li a {
+color: #ebe5e5;
+text-decoration: none;
+background-color: gray;
+border-radius: 5px;
+padding: 5px 10px;
+    
+} 
+.logo {
+    margin-left : 20px;
+    height: 60px;
+
+}
+.btn {
+    background-color: gray;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 35px;
+
+}
+.container {
+    text-align:center ;
+    margin-top: 50px;
+    display: flex;
+    flex-direction :unset;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+}
+header h2 {
+    font-size: 2em;
+    color: white;
+    margin-top: 10px;
+    font-style :initial;
+
+}
+
+
+.container img {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.container div {
+     background-color: rgba(85, 138, 155 , 0.5);
+    text-align: center;
+    margin: 20px;
+    border-radius: 5px;
+    width: 20%
+}
+.container div h1 {
+    font-size: 1.5em;
+    color: white;
+    font-style: oblique;
+    
+}
+.container div p {
+    font-size: .8em;
+    font-style: italic;
+}
+.container div button {
+    background-color: #82aa23;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
