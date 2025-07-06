@@ -4,8 +4,11 @@ padding: 0;
 box-sizing: border-box;
 }
 body {
-    background-image: url(wc22.png);
-    background-size: cover;
+    
+    background-color: #330033;
+background-color: #000000;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='250' height='30' viewBox='0 0 1000 120'%3E%3Cg fill='none' stroke='%23222' stroke-width='9.8' stroke-opacity='0.71'%3E%3Cpath d='M-500 75c0 0 125-30 250-30S0 75 0 75s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 45c0 0 125-30 250-30S0 45 0 45s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 105c0 0 125-30 250-30S0 105 0 105s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 15c0 0 125-30 250-30S0 15 0 15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500-15c0 0 125-30 250-30S0-15 0-15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 135c0 0 125-30 250-30S0 135 0 135s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3C/g%3E%3C/svg%3E");
+
     
     font: 1em sans-serif;
 }
@@ -35,6 +38,7 @@ text-decoration: none;
 background-color: gray;
 border-radius: 5px;
 padding: 5px 10px;
+border: 2px solid #d6a10d;
     
 } 
 .logo {
@@ -45,7 +49,7 @@ padding: 5px 10px;
 .btn {
     background-color: gray;
     color: white;
-    border: none;
+    border: 2px solid #d6a10d;
     padding: 10px 15px;
     cursor: pointer;
     border-radius: 5px;
@@ -75,6 +79,8 @@ header h2 {
     width: 200px;
     height: 200px;
     margin: 20px;
+    border: 2px solid #d6a10d;
+
     border-radius: 5px;
 }
 
@@ -83,12 +89,18 @@ header h2 {
     text-align: center;
     margin: 20px;
     border-radius: 5px;
-    width: 20%
+    width: 20%;
+    border: 2px solid #d6a10d;
 }
 .container div h1 {
+    width: 80%;
     font-size: 1.5em;
     color: rgb(121, 86, 21);
     font-style: oblique;
+    text-align: center;
+    border-bottom: 2px solid #d6a10d;
+    border-width: 80%;
+    margin-left: 15px;
     
 }
 .container div p {
@@ -103,4 +115,5 @@ header h2 {
     padding: 10px 15px;
     border-radius: 5px;
     cursor: pointer;
+    
 }
